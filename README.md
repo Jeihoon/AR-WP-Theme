@@ -1,4 +1,4 @@
-# AR Theme
+# AR WP Theme
 
 **Author:** Amin Rahnama  
 **Website:** https://mypixellab.com  

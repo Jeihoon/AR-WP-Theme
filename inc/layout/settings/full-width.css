@@ -1,0 +1,10 @@
+.wp-block-columns.is-style-ar-full-width {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  max-width: none;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  margin-top: -30px;
+
+
+}

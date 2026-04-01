@@ -1,0 +1,23 @@
+/* bootstrap-align.css */
+
+/* Group (outer container) */
+.wp-block-group.align-wide {
+  max-width: 1000px;  /* match your theme.json contentSize */
+  margin: 0 auto;
+}
+.wp-block-group.align-full {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Columns (inner row) */
+.wp-block-columns.align-wide {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.wp-block-columns.align-full {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}

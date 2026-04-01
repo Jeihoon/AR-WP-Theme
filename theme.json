@@ -1,0 +1,60 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "1000px",
+      "wideSize": "100%"
+    },
+    "blocks": {
+      "core/group": {
+        "supports": {
+          "align": ["wide", "full"]
+        }
+      },
+      "core/columns": {
+        "supports": {
+          "align": ["wide", "full"]
+        }
+      },
+      "ar-theme-elements/main-column": {
+        "supports": {
+          "align": ["wide", "full"]
+        }
+      },
+      "ar-theme-elements/row": {
+        "supports": {
+          "align": ["wide", "full"]
+        }
+      }
+    },
+    "typography": {
+      "fontSizes": [
+        { "name": "Small",  "slug": "small",  "size": "0.875rem" },
+        { "name": "Normal", "slug": "normal", "size": "1rem" },
+        { "name": "Large",  "slug": "large",  "size": "1.5rem" }
+      ],
+      "customFontSize": false,
+      "dropCap": false,
+      "fontFamilies": [
+        { "name": "Roboto", "slug": "roboto", "fontFamily": "Roboto, sans-serif" }
+      ]
+    },
+    "spacing": {
+      "units": ["px", "em", "rem", "%"],
+      "customPadding": true
+    },
+    "blockGap": "1rem"
+  },
+  "styles": {
+    "color": {
+      "background": "#ffffff",
+      "text": "#222222"
+    },
+    "typography": {
+      "fontFamily": "Roboto, sans-serif",
+      "fontSize": "1rem",
+      "fontWeight": "400"
+    }
+  }
+}
